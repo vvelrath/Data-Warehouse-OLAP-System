@@ -7,9 +7,9 @@ In this project, we implemented a genomic data warehouse application using Angul
 Star schema design was used in this project. 
 
 This data warehouse supports the following operations:
-1) supports regular and statistical OLAP operations
-2) robust to potential changes in the future
-3) support knowledge discovery
+1) supports regular and statistical OLAP operations																	
+2) robust to potential changes in the future																				
+3) support knowledge discovery																							
 
 ### Data files
 
@@ -47,8 +47,8 @@ The Data warehouse answers the following queries
 
 ### Steps to deploy the Data warehouse
 
-• The Data files have to be imported into an oracle database
-• The Connection URL of the database have to be changed in each of the servlets before deploying it
-• The "DataWarehouseApp" folder represents the front end deliverables for this application.
-• The "Query" folder represents the back end deliverables(servlets) for this application.
-• Deploy the above two folders in a web application server like Tomcat and start using the Application with the URL ...http://localhost:8080/DataWarehouseApp 
+	• The Data files have to be imported into an oracle database																							
+	• The Connection URL of the database have to be changed in each of the servlets before deploying it
+	• The "DataWarehouseApp" folder represents the front end deliverables for this application.
+	• The "Query" folder represents the back end deliverables(servlets) for this application.
+	• Deploy the above two folders in a web application server like Tomcat and start using the Application with the URL ...http://localhost:8080/DataWarehouseApp 
