@@ -1,0 +1,95 @@
+/* app css stylesheet */
+
+.menu {
+  list-style: none;
+  border-bottom: 0.1em solid black;
+  margin-bottom: 2em;
+  padding: 0 0 0.5em;
+}
+
+.menu:before {
+  content: "[";
+}
+
+.menu:after {
+  content: "]";
+}
+
+.menu > li {
+  display: inline;
+}
+
+.menu > li:before {
+  content: "|";
+  padding-right: 0.3em;
+}
+
+.menu > li:nth-child(1):before {
+  content: "";
+  padding: 0;
+}
+
+#veil {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height:100%;
+	width:100%;
+	cursor: not-allowed;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+	background: #000000 url(http://www.wingo.com/angular/AngularShieldLogo.png) no-repeat center;
+}
+#feedLoading {
+	position: absolute;
+	top:200px;
+	width:100%;
+	text-align: center;
+	font-size: 4em;
+	color:white;
+	text-shadow: 2px 2px 2px #021124;
+}
+
+
+.heading {
+    font-family: 'Cooper Black W02';
+    font-weight: normal;
+}
+
+.heading {
+    margin: 0;
+    color: #fbf7e7;
+    font-size: 6em;
+    line-height: 1em;
+    letter-spacing: -.1em;
+}
+
+
+html { background-color: #fbf7e7; }
+
+body { margin: 0; }
+
+.page-header {
+    -webkit-box-shadow: 0 0 10px rgba(31, 27, 12, .3);
+    box-shadow: 0 0 10px rgba(31, 27, 12, .3);
+}
+
+.page-header {
+    overflow: hidden;
+    background: #1f1b0c;
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.page-header {
+    margin-bottom: 3em;
+    padding: 3em 0 2em;
+}
+.heading {
+    width: 960px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.heading { margin-bottom: .25em; }
